@@ -1,13 +1,25 @@
 /* it worked!*/ 
 
-
+*{
+  
+    font-family: arial,sans-serif;
+    font-size: small;
+    text-align: center;
+}
+body{
+    background: none repeat scroll 0 0 #fff;
+    margin: 0;
+    color: #222;
+    width: 100%;
+}
 .logo{
     height: 92px;
     width: 272px;
+    margin: 0 auto;
+    padding: 109px 0 0 0 ;
+    text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 109px;
+    
 }
 
 .search-bar{
@@ -17,10 +29,78 @@
     flex-shrink: 1;
     margin-left: auto;
     margin-right: auto;
-    width: 460px;
-    height: 39px;
+    width: 482px;
+    height: 44px;
     padding-bottom: 0px;
     padding-left: 14px;
     padding-right: 8px;
     padding-top: 5px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    overflow: hidden;
+}
+.nav-bar li{
+    float: left;
+    padding: 14px 16px;
+}
+.nav-bar a{
+    text-align: right;
+}
+.footer2{
+    position: absolute;
+    overflow: hidden;
+    bottom: 32px;
+    padding: 8px;
+    width: 100%;
+    margin: 0;
+    list-style-type: none;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    color: #5F6368;
+}
+.footer2 li{
+    float: left;
+}
+
+.footer2 a{
+    display: block;
+    padding: 8px;
+}
+
+.footer1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+.footer1 li{
+    float: left; 
+}
+.footer1 a {
+    display: block;
+    padding: 8px;
+}
+button{
+    background-color: #f3f3f3;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 10px;
+    border-radius: 4px;
+    color: #5F6368;
+    min-width: 54px;
 }
